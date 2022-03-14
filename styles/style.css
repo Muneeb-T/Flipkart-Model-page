@@ -1,0 +1,255 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 217, 217, 0.9051995798319328) 0%, rgba(4, 11, 71, 0.10688025210084029) 100%);
+}
+
+.header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    background-color: blue;
+}
+
+.flipkart-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin-inline: 20px;
+    font-size: x-large;
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+.header-center {
+    margin: auto;
+}
+
+.login-button {
+    margin-inline: 20px;
+    background-color: #ffffff;
+    border: none;
+    font-weight: bolder;
+    color: blue;
+    padding: 6px 40px 6px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.login-button:hover{
+    cursor: pointer;
+}
+
+.search-box {
+    position: relative;
+    box-shadow: 20px;
+    padding-inline: 20px;
+    height: 30px;
+    width: 400px;
+    outline: none;
+}
+
+
+.dropdown {
+    margin-inline: 20px;
+    font-weight: bolder;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    font-weight: lighter;
+    color: black;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 3px 10px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
+
+.color-white {
+    color: white;
+}
+
+.button-no-background {
+    border: none;
+    background: none;
+    font-weight: bolder;
+    font-size: medium;
+    margin-inline: 20px;
+}
+
+.button-no-background:hover {
+    cursor: pointer;
+}
+
+.catogeries {
+
+    height: 120px;
+    display: flex;
+    background-color: azure;
+}
+
+.catogery-divs {
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.images {
+    margin: auto;
+    display: block;
+    width: 60%;
+    height: 60%;
+}
+
+.category-text {
+    text-align: center;
+    display: block;
+    font-weight: bolder;
+    font-size: small;
+}
+
+.category-text:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.advertisments {
+    padding: 8px;
+}
+
+.ad-image {
+    width: 100%;
+    height: auto;
+}
+
+.products {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.blue-button {
+    color: white;
+    background-color: steelblue;
+    border: none;
+    padding: 10px;
+    margin-left: auto;
+}
+
+.blue-button:hover {
+    cursor: pointer;
+    background-color: rgb(88, 146, 194);
+}
+
+.products-head {
+    padding: 10px;
+    display: flex;
+}
+
+.display-products {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.product-cards {
+    width: 210px;
+    height: auto;
+    margin: 5px;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(220, 220, 220);
+    border: none;
+}
+
+
+.titles {
+    margin-top: 20px;
+    margin-bottom: 3px;
+    text-align: center;
+    display: block;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+
+.titles, .product-images:hover {
+    cursor: pointer;
+    transform-origin:center;
+    animation: scale 70ms ease-in-out forwards;
+}
+
+@keyframes scale {
+    to {
+        transform: scale(1.05);
+    }
+
+
+}
+
+
+.green-text {
+    margin: 4px;
+    text-align: center;
+    color: green;
+    font-size: 15px;
+}
+
+.muted-text {
+    margin: 5px;
+    text-align: center;
+    color: rgb(138, 138, 138);
+    font-size: 15px;
+}
+
+.product-images {
+    margin: auto;
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+
+.small-icons{
+    color: blue;
+    margin-right: 8px;
+}
+
+.search-button{
+    transform: translateY(10px) translateX(-35px);
+    position: absolute;
+    color : blue;
+    background: none;
+    border: none;
+}
+
+.search-button:hover{
+    cursor: pointer;
+}
+
+
+.spacer
+{
+    width: 100%;
+    height: 55px;
+}
